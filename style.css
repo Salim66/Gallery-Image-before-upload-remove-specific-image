@@ -1,0 +1,23 @@
+.appendedImg {
+  width: 150px;
+  height: 150px;
+}
+
+.imgHolder {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+}
+
+.closeIT_removeImg {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  color: white;
+}
+
+.closeIT_removeImg:hover {
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
